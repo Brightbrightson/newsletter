@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View, Text, TextInput, Alert } from 'react-native';
-import { StyleSheet, Pressable } from "react-native";
+import { StyleSheet, Pressable, Image } from "react-native";
 import { useState } from 'react';
 
 
@@ -9,7 +9,7 @@ const SubscribeScreen = () => {
 
   // Add subscribe screen code here
   return <View>
-            <img style={styles.center} src="./assets/little-lemon-logo-grey.png" height={200} width={200} alt="" />
+            <image style={styles.center} src="./assets/little-lemon-logo-grey.png" height={200} width={200} alt="" />
 <Text style={{
         padding: 20,
         fontSize: 24,
